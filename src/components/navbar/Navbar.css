@@ -27,6 +27,7 @@
 
 .fa-toggle-on {
   color: var(--text);
+  cursor: pointer;
   margin-left: 9px;
   transition: all 1s ease;
 }
