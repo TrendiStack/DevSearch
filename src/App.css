@@ -1,0 +1,28 @@
+.App {
+  background: var(--background);
+  transition: all 1s ease;
+}
+
+@media (max-width: 500px) {
+  .App {
+    padding: 10px 10px 150px 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .App {
+    padding: 30px 450px 100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .App {
+    padding: 100px 300px 290px;
+  }
+
+  @media (min-width: 1900px) {
+    .App {
+      padding: 100px 550px 100%;
+    }
+  }
+}

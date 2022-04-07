@@ -1,0 +1,33 @@
+:root {
+  --background: #f6f8ff;
+  --title-color: #222731;
+  --text: #4b6a9b;
+  --user-name: #0079ff;
+  --stats-number: #000;
+  --stats-background: #f6f8ff;
+  --devinfo-background: #fefefe;
+  --devinfo-boxshadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+}
+
+[data-theme="dark"] {
+  --background: #141d2f;
+  --title-color: #fff;
+  --text: #fff;
+  --user-name: #0079ff;
+  --stats-number: #fff;
+  --stats-background: #141d2f;
+  --devinfo-background: #1e2a47;
+  --devinfo-boxshadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+}
+
+body {
+  margin: 0;
+  font-family: "Space Mono";
+  background: black;
+}
+
+@media (min-width: 1400px) {
+  :root {
+    overflow: hidden;
+  }
+}

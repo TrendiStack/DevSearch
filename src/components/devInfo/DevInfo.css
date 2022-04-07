@@ -1,0 +1,242 @@
+.infoContainer {
+  background: var(--devinfo-background);
+  border-color: transparent !important;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: var(--devinfo-boxshadow);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 10px 0 10px;
+  transition: all 1s ease;
+}
+
+/* --------------- NAMES CONTAINER ---------------  */
+
+.nameContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.userImageContainer {
+  margin-top: 15px;
+}
+
+.fullName {
+  color: var(--stats-number);
+  font-weight: 700;
+  transition: all 1s ease;
+}
+
+.userImage {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.userNames {
+  margin-top: 15px;
+}
+
+.userNames > p {
+  margin: 8px 0;
+}
+
+.userName {
+  color: var(--user-name);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+
+.joined2 {
+  display: none;
+}
+
+/* --------------- BIO ---------------  */
+
+.bio {
+  line-height: 25px;
+  margin: 30px 0 0 30px;
+}
+
+/* --------------- STATS ---------------  */
+
+.stats {
+  background: var(--stats-background);
+  border-color: transparent !important;
+  border-radius: 15px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px 25px 0;
+  text-align: center;
+  transition: all 1s ease;
+}
+
+.repos > h1 {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.followers > h1 {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.following > h1 {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.repos > p {
+  color: var(--stats-number);
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 1s ease;
+}
+
+.followers > p {
+  color: var(--stats-number);
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 1s ease;
+}
+
+.following > p {
+  color: var(--stats-number);
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 1s ease;
+}
+
+/* --------------- LINKS ---------------  */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  margin: 0 27px 10px 57px;
+}
+
+.textContainer {
+  margin-left: 2px;
+}
+
+.twitter {
+  margin-top: -20px;
+}
+
+.lIcon {
+  position: relative;
+  right: 23px;
+  top: 45px;
+}
+
+.bIcon {
+  position: relative;
+  right: 40px;
+  top: 85px;
+}
+
+.tIcon {
+  position: relative;
+  right: 27px;
+  top: 7px;
+}
+
+.wIcon {
+  position: relative;
+  right: 47px;
+  top: 45px;
+}
+
+@media (min-width: 1400px) {
+  /* --------------- NAMES CONTAINER ---------------  */
+  .nameContainer {
+    margin-left: -70px;
+  }
+
+  .userNames {
+    margin-left: -40px;
+  }
+
+  .userImage {
+    margin-left: 10px;
+  }
+
+  .joined {
+    visibility: hidden;
+  }
+
+  .joined2 {
+    display: block;
+    margin-bottom: 0;
+    margin-left: 80px;
+  }
+
+  /* --------------- BIO ---------------  */
+
+  .bio {
+    margin: 0px 80px 0px 180px;
+  }
+
+  /* --------------- STATS ---------------  */
+  .stats {
+    justify-content: flex-start;
+    margin-left: 160px;
+    margin-right: 80px;
+  }
+
+  .statsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+  }
+
+  .statsContainer > h1 {
+    font-size: 15px;
+  }
+
+  .statsContainer > p {
+    font-size: 20px;
+  }
+
+  /* --------------- LINKS ---------------  */
+  .links {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 30px 50px 200px;
+  }
+
+  .textContainer {
+    margin-left: 100px;
+  }
+
+  .twitter {
+    margin-top: 15px;
+  }
+
+  .lIcon {
+    position: relative;
+    right: 22px;
+    top: 43px;
+  }
+
+  .bIcon {
+    position: relative;
+    right: 42px;
+    top: 85px;
+  }
+
+  .tIcon {
+    position: relative;
+    right: 28px;
+    top: 43px;
+  }
+
+  .wIcon {
+    position: relative;
+    right: 48px;
+    top: 85px;
+  }
+}
